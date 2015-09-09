@@ -6024,11 +6024,18 @@ h3 {
     background-color: #2c3e50;
     color: #969fa8;
 }
+
 section#links.section.section-inverse {
     background-color: #2c3e50;
     color: #969fa8;
+    min-height: 500px;
     max-height: 500px;
 }
+
+@media screen and (max-width: 990px) {
+    .showcase-bg {display:none;}
+}
+
 .section.section-inverse .section-title {
     color: #fff;
 }
@@ -6476,15 +6483,15 @@ section#links.section.section-inverse {
     text-align: center;
 }
 }.section-showcase .showcase-bg {
-    max-height: 500px;
-    width: 100%;
+    height: 500px;
+    width: auto;
     max-width: 1170px;
     float: right;
     margin: -104px -15px -104px 0;
 }
 @media (max-width:1200px) {
     .section-showcase .showcase-bg {
-    height: 598px;
+    /*height: 598px;*/
     margin-top: -78px;
     margin-bottom: -78px;
 }
