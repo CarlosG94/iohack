@@ -71,7 +71,7 @@
 }
 
 section#agenda {
-    min-height:600px;
+    min-height:800px;
  /*   background-color: black;*/
 }
 
@@ -117,8 +117,6 @@ section#sponsors{
     padding-top: 0;
     transition: 1s all ease;
 }
-
-
 
 #map-canvas {
         width: 100%;
@@ -6572,4 +6570,10 @@ h3 {
 
 .sub-list {
     list-style-type: none;
+}
+
+@media (min-width: 400) {
+    .site-logo {
+        
+    }
 }
