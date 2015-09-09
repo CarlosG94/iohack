@@ -70,6 +70,31 @@ section#navbar a:link{
 
 /* End Navbar */
 
+/* Section Top */
+
+#particles-js {
+    background-color: black;
+    z-index: -10;
+     height:700px; 
+     width: 100%;
+     height: 100%;
+}
+
+@media(max-width: 400px){
+    .center-screen{
+        max-height: 600px !important;
+    }
+}
+
+/*@media(max-width: 800px){
+    .center-screen{
+        max-height: 650px !important;
+    }
+}*/
+
+
+/* End Section Top */
+
 /* Media Queries*/
 @media(max-width: 500px){
     section#challenges .col-sm-4{
@@ -6575,11 +6600,12 @@ h3 {
     margin-bottom: 0;
 }
 
-#particles-js {
+/*#particles-js {
     width:100%;
     height:100%;
     z-index:0;
-}
+}*/
+
 
 .center-screen {
     position: absolute;
