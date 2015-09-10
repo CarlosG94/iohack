@@ -58,7 +58,7 @@
               <div class="site-logo"><img src="assets/img/iohackwhite.png" width="300"></div>
               <h3 class="section-title section-title-top"> 13 de Noviembre </br> ITESM Campus Santa Fe</h3>
               <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-                <a class="typeform-share btn btn-lg btn-block btn-danger btn-rounded" href="https://carlosgutz.typeform.com/to/yUqHe0" data-mode="1" target="_blank">Aplica</a>
+                <a class="typeform-share btn btn-lg btn-block btn-danger btn-rounded" href="https://hacktheworld.typeform.com/to/yUqHe0" data-mode="1" target="_blank">Aplica</a>
               </div>
             </header>
           </div>
@@ -86,10 +86,9 @@
                     </div>
                     <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
                       <h4>El Internet de las Cosas</h4>
-                      <!--<p class="big">Looking to break into the internet of things? Cisco has brought <a href="http://www.monkeybars.io">MonkeyBars</a> on board to help you do just that during a 24-hour build session at <a href="http://www.1871.com/">1871</a>. For this momentous occasion, Cisco is making available a few new development platforms and giving away cash money to the teams that create the most imaginative projects. Our favorite amenities, like ‘round the clock food and bev as well as some new hotness we’ve added for a bit of flavor will be presented this fall at the Internet of Things World Forum Hackathon hosted by Cisco.</p>-->
-                      <p> Imagina un mundo en donde los objetos inanimados tienen la oportunidad de hablar. Una máquina pudiera decirle a un gerente que sus empleados están en peligro puesto que sus partes están envejeciendo. Imagina un mundo donde los objetos puedan hablarse unos a otros; cuando el teléfono de un empleado pueda decirle al sistema de seguridad del banco “Ray puede pasar, tiene acceso.” Ése mundo está llegando, y ese mundo es el <span class="highlight3"><strong>Internet de las Cosas (Internet of Things “IoT”)</strong></span>.</p>
-                      <br>
-                      <p>Le daremos al Internet de las Cosas una cálida bienvenida invitándolos a ser parte de su creación durante nuestro <strong>hackatón de 24 horas</strong>; donde al final, las mejores ideas serán presentadas ante un grupo de empresas y empresarios con la finalidad de llevar éstas tecnologías a una etapa de desarrollo profesional, y verlas implementadas en el mundo real.</p>
+                      <p>Imagina un mundo en donde los objetos inanimados tuvieran oportunidad de hablar. Una máquina que pudiera decirle a un gerente que sus empleados están en peligro porque su fuerza y energía se han deteriorado en un 60% debido a que están envejeciendo. Imagina un mundo donde los objetos puedan hablarse unos a otros; cuando el teléfono de un empleado pueda a decirle al sistema de seguridad del banco “Luis tiene acceso, que pase”.</p>
+                     
+                      <p>Ese mundo está llegando y se llama el <span class="highlight3"><strong>Internet de las Cosas (Internet of Things “IoT”)</strong></span>. En <i>I/O HACK</i> queremos invitarlos a formar parte de los creadores de este mundo, donde durante 24 horas desarrolles tecnología que pueda revolucionar la manera en que funcionan las industrias de: Agricultura, Retail y Logística.</p>
                     </div>
                   </article>
                 </div>
@@ -143,7 +142,7 @@
                           </div>
                           <div class="feature-block">
                             <h3><span>¿C&oacute;mo me registro?</span></h3>
-                            <p>Para poder realizar tu registro haz click <a href="https://carlosgutz.typeform.com/to/yUqHe0">aquí</a>.</p>
+                            <p>Para poder realizar tu registro haz click <a href="https://hacktheworld.typeform.com/to/yUqHe0">aquí</a>.</p>
                           </div>
                         </div>
 
@@ -615,7 +614,23 @@
     </div>
 
     <!--JS-->
-    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()
+    </script>
+    <script>
+     var time = new Date().getTime();
+     $(document.body).bind("mousemove keypress", function(e) {
+         time = new Date().getTime();
+     });
+
+     function refresh() {
+         if(new Date().getTime() - time >= 60000) 
+             window.location.reload(true);
+         else 
+             setTimeout(refresh, 10000);
+     }
+
+     setTimeout(refresh, 10000);
+    </script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap-3.1.1.min.js"></script>
