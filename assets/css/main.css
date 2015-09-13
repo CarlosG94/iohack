@@ -6211,6 +6211,11 @@ section#links.section.section-inverse {
     border-style: solid;
     padding-bottom: 51px;
 }
+@media (max-width: 991px) {
+    .section-features .row>div {
+    border: none!important;
+    }
+}
 @media (max-width:767px) {
     .section-features .row>div {
     border: none!important;
@@ -6626,13 +6631,6 @@ section#links.section.section-inverse {
     margin-bottom: 0;
 }
 
-/*#particles-js {
-    width:100%;
-    height:100%;
-    z-index:0;
-}*/
-
-
 .center-screen {
     position: absolute;
     top: 0;
@@ -6645,10 +6643,4 @@ section#links.section.section-inverse {
 
 .sub-list {
     list-style-type: none;
-}
-
-@media (min-width: 400) {
-    .site-logo {
-        
-    }
 }
