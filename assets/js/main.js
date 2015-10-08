@@ -37,8 +37,21 @@ $(document).ready(function(){
           zoom: 16,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           scrollwheel: false
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
+        };
+      
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+
+        var marker = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(19.3594418,-99.258399),
+          icon: 'assets/img/htwchico.png'
+        });
+
+        var infowindow = new google.maps.InfoWindow({
+            content: "<b>I/O Hack</b>"
+        });
+
+        infowindow.open(map,marker);
       }
       google.maps.event.addDomListener(window, 'load', initialize);
 

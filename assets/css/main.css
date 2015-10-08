@@ -115,8 +115,17 @@ section#navbar a:link{
         padding-left: 5px !important;
     }
     .section-pricing-table .panel-body {
-        padding: 0,0,0,0; }
+        padding: 0,0,0,0; 
+    }
+
 }
+
+@media)(min-width:499px){
+    section#sponsors {
+        height: 1000px;
+    }
+}
+
 
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
@@ -161,7 +170,15 @@ section#agenda .bottom{
 }
 
 section#sponsors{
-    height: 500px;
+    height: 700px;
+}
+
+section#sponsors .sponsor-1{
+    margin-top: 50px;
+}
+
+section#sponsors .sponsor-2{
+    margin-top: 50px;
 }
 
 .normal{
