@@ -122,7 +122,7 @@ section#navbar a:link{
 
 @media)(min-width:499px){
     section#sponsors {
-        height: 1000px;
+        /*height: 1000px;*/
     }
 }
 
@@ -170,7 +170,7 @@ section#agenda .bottom{
 }
 
 section#sponsors{
-    height: 700px;
+    /*height: 700px;*/
 }
 
 section#sponsors .sponsor-1{
