@@ -169,9 +169,9 @@ section#agenda .bottom{
     border-bottom: 2px solid;
 }
 
-section#sponsors{
-    /*height: 700px;*/
-}
+section#sponsors #tuny {
+/*    margin-top: -10px;
+*/}
 
 section#sponsors .sponsor-1{
     margin-top: 50px;

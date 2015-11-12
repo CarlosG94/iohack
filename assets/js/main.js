@@ -48,7 +48,7 @@ $(document).ready(function(){
         });
 
         var infowindow = new google.maps.InfoWindow({
-            content: "<b>I/O Hack</b></br>13-14 de Noviembre</br><a href='https://goo.gl/vXGsRp' target='_blank'>Direcciones</a>"
+            content: "<b>I/O Hack</b></br>13-14 de Noviembre</br><a href='https://goo.gl/vXGsRp' target='_blank'>¿Cómo llegar?</a>"
         });
 
         infowindow.open(map,marker);
